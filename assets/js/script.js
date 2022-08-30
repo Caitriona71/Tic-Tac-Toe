@@ -21,10 +21,11 @@ startGame();
 function startGame() {
     squares.forEach(square => square.addEventListener("click", squareClicked));
     newGameBtn.addEventListener("click", newGame);
-    statusOfPlay.textContent = `${currentPlayer}'s turn`
+    statusOfPlay.textContent = `${currentPlayer}'s turn`;
 }
 
 function squareClicked() {
+    const squareIndex = this.getAttribute("squareIndex");
 
 }
 
