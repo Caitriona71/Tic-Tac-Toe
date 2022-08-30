@@ -16,8 +16,11 @@ let selections = ["", "", "", "", "", "", "", "", ""];
 let currentPlayer = "X";
 let running = false;
  
-function startGame() {
+startGame();
 
+function startGame() {
+    squares.forEach(square => square.addEventListener("click", squareClicked));
+    newGameBtn.addEventListener("click", newGame);
 }
 
 function squareClicked() {
