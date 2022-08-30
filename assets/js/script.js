@@ -15,3 +15,27 @@ const winCircumstances = [
 let selections = ["", "", "", "", "", "", "", "", ""];
 let currentPlayer = "X";
 let running = false;
+ 
+function startGame() {
+
+}
+
+function squareClicked() {
+
+}
+
+function reviseSquare(square, index) {
+
+}
+
+function changePlayer() {
+
+}
+
+function checkWinner() {
+
+}
+
+function newGame() {
+
+}
