@@ -14,3 +14,4 @@ const winCircumstances = [
 
 let selections = ["", "", "", "", "", "", "", "", ""];
 let currentPlayer = "X";
+let running = false;
